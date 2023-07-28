@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Map API</title>
+</head>
+
+<body>
+    <h1>A simple HERE Map API demo</h1>
+    <div class="searchBox">
+        <input type="text" id="searchText" placeholder="Enter a location" />
+        <button id="searchButton">Search</button><br>
+    </div>
+    <p id="clickedLocation"></p>
+    <div id="mapContainer">
+        <!-- map is loaded here -->
+    </div>
+    <script src="HereMap_API.js"></script>
+</body>
+
+</html>
